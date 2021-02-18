@@ -394,35 +394,42 @@ section .title::after {
 .skills-content .right .html::before {
   width: 90%;
 }
-
 .skills-content .right .css::before {
   width: 90%;
 }
-
-.skills-content .right .js::before {
-  width: 65%;
+.skills-content .right .angular::before {
+  width: 60%;
 }
-
+.skills-content .right .react::before {
+  width: 60%;
+}
+.skills-content .right .js::before {
+  width: 60%;
+}
 .skills-content .right .typescript::before {
   width: 60%;
+}   
+.skills-content .right .dotnet::before {
+  width: 70%;
 }
-
 .skills-content .right .csharp::before {
+  width: 70%;
+}   
+.skills-content .right .spring::before {
   width: 50%;
 }
-
-.skills-content .right .python::before {
-  width: 45%;
+.skills-content .right .java::before {
+  width: 50%;
 }
-
-.skills-content .right .angular::before {
+.skills-content .right .python::before {
   width: 40%;
 }
-
 .skills-content .right .mysql::before {
   width: 60%;
-}
-
+} 
+.skills-content .right .sqlserver::before {
+  width: 60%;
+}   
 
 /* projects section styling */
 .projects .title::after {
@@ -662,7 +669,7 @@ footer span a:hover {
     width: 100%;
     left: -100%;
     top: 0;
-    background: #111;
+    background: rgb(6, 176, 243);
     text-align: center;
     padding-top: 80px;
     transition: all 0.3s ease;
